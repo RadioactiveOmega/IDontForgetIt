@@ -17,7 +17,7 @@ target/
 .idea
 .mvn
 target
-src/main/resources/application.properties
+*.properties
 *.iws
 *.iml
 *.ipr
