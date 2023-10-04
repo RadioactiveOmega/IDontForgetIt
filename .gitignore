@@ -17,7 +17,6 @@ target/
 .idea
 .mvn
 target
-*.properties
 *.iws
 *.iml
 *.ipr
@@ -34,3 +33,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Properties ###
+application.properties
