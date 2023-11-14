@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <form method="post">
+        <input type="text" name="tittle" placeholder="Введите название события" />
+        <input type="text" name="text" placeholder="Введите текст">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<div>Список записей</div>
+{{#records}}
+    <div>
+        <b>{{id}}</b>
+        <span>{{tittle}}</span>
+        <i>{{text}}</i>
+    </div>
+    {{/records}}
+</body>
+</html>

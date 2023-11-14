@@ -1,4 +1,4 @@
-package com.myProjects.IDontForgetIt.domain;
+package com.myProjects.IDontForgetIt.enums;
 
 import java.time.Duration;
 

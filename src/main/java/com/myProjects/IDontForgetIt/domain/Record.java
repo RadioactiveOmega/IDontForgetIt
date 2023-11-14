@@ -1,5 +1,6 @@
 package com.myProjects.IDontForgetIt.domain;
 
+import com.myProjects.IDontForgetIt.enums.TimePeriods;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -31,5 +32,11 @@ public class Record {
 
     @Enumerated(EnumType.ORDINAL)
     TimePeriods timePeriod;
+
+    public Record(String tittle, String text) {
+        this.tittle = tittle;
+        this.text = text;
+    }
+
 
 }
